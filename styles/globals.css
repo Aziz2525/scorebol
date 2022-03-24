@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Nunito-Medium';
+    src: url('../assets/Nunito/Nunito-Medium.ttf');
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Nunito-Bold';
+        src: url('../assets/Nunito/Nunito-ExtraBold.ttf');
+        font-weight: bold;
+        font-style: normal;
+        }
+
+body{
+    font-family: 'Nunito-Medium';
+    background-color: #F6F6F6;
+}
+h3{
+    font-family: 'Nunito-Bold' !important;
+
+}
